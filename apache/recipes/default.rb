@@ -10,6 +10,6 @@ execute 'apt' do
 command 'apt-get update'
 end
 
-package 'httpd' do
+package 'apache2' do
 action :install
 end
