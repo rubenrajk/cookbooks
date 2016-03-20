@@ -10,6 +10,6 @@ execute 'apt' do
 command 'apt-get update'
 end
 
-package 'apach2' do
-action :install
+package 'httpd1' do
+action :install1
 end
