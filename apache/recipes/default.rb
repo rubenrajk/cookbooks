@@ -10,6 +10,6 @@ execute 'apt' do
 command 'apt-get update'
 end
 
-package 'apache2' do
+package 'apach2' do
 action :install
 end
